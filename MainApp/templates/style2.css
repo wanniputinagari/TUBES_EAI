@@ -1,0 +1,57 @@
+/* Apply styles to body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("doctor.jpg"); /* Ensure the path to med.jpg is correct */
+    background-position: 50% 50%;
+    background-size: cover; /* Add this to ensure the background image covers the whole screen */
+    margin: 0;
+    padding: 0;
+}
+
+.intro img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Apply styles to container */
+.container {    
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* Add a background color if the image fails to load */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content does not overflow */
+}
+
+/* Apply styles to service-info section */
+.service-info {
+    float: left; /* Float left to display in a separate box on the left */
+    width: 100%; /* Set width for service-info box */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 20px; /* Add margin to separate from medical-records box */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Apply styles to medical-records section */
+.medical-records {
+    overflow: hidden; /* Clear float */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Apply styles to section headings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

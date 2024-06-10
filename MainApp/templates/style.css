@@ -1,0 +1,10 @@
+body {
+    background-image: url("doctor.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card img {
+    max-width: 200px;
+    width: 100%; /* Ensure the image fills its container */
+}
